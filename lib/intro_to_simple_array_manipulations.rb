@@ -1,7 +1,7 @@
 require 'pry'
 
-def using_concat(ary1, ary2)
-ary1.concat(ary2)
+def using_concat(array, array2)
+array.concat(array2)
 end
 
 def using_insert(array, element)
@@ -16,10 +16,10 @@ def using_flatten(array)
   array.flatten
 end
 
-def using_delete(array, str)
-  array.delete(str)
+def using_delete(array, string)
+  array.delete(string)
 end
 
-def using_delete_at(array, int)
-  array.delete_at(int)
+def using_delete_at(array, integer)
+  array.delete_at(integer)
 end
